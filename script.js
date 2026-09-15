@@ -9,17 +9,7 @@ function convertToRoman(num) {
       6:['I', 1]
     };
   //your code here
- function convertToRoman(num) {
-    let result = "";
-
-    for (let i = 0; i < symbols.length; i++) {
-        while (num >= symbols[i][1]) {
-            result += symbols[i][0];
-            num -= symbols[i][1];
-        }
-    }
-
-    return result;
+ 
 }
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
 
